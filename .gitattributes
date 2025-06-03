@@ -1,0 +1,1 @@
+ckpts/sCqFE-202505262304-FATHOM-Swin_PMG/swin_pmg-FATHOM-epoch=048-BEST_COST=0.016681.ckpt filter=lfs diff=lfs merge=lfs -text
