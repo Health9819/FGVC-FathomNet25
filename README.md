@@ -23,3 +23,7 @@ And we also notice that the score of the competition is defined by the avg error
 We only use the ROIS images provided in our training and testing progress, which may lead to the worse score than the Top3 teams.
 
 We also use some other tricks to help the model speed up training and convergence, this could be seen in our codes.
+
+## Results
+Our results are saved in a pkl file and run `result.py' could get the final csv. The result can be calculated by top1-possiblity or minimal score(by calculating the expection of the label prediction).
+The results_v4.pkl reflects our best score(with expection).
